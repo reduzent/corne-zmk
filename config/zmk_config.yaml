@@ -1,0 +1,4 @@
+zmk:
+  options:
+    usb: true
+    ble: true
