@@ -8,7 +8,3 @@ on:
 jobs:
   build:
     uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@v0.3
-    with:
-      boards: |
-        nice_nano_v2 corne_left
-        nice_nano_v2 corne_right
