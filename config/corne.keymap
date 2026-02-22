@@ -4,9 +4,9 @@
 
         default_layer {
             bindings = <
-                &kp Q    &kp W    &kp E    &kp R    &kp T    &kp Y
-                &kp A    &kp S    &kp D    &kp F    &kp G    &kp H
-                &kp Z    &kp X    &kp C    &kp V    &kp B    &kp N
+                &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y
+                &kp A  &kp S  &kp D  &kp F  &kp G  &kp H
+                &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N
                 &kp LCTRL &kp LALT &kp LGUI
                 &kp SPACE &mo 1 &kp BSPC
             >;
@@ -14,10 +14,10 @@
 
         lower_layer {
             bindings = <
-                &kp 1    &kp 2    &kp 3    &kp 4    &kp 5    &kp 6
-                &kp EXCL &kp AT   &kp HASH &kp DLLR &kp PRCNT &kp CARET
-                &kp LPAR &kp RPAR &kp LBKT &kp RBKT &kp LCURL &kp RCURL
-                &none    &none    &none
+                &kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &kp N6
+                &kp N7 &kp N8 &kp N9 &kp N0 &kp MINUS &kp EQUAL
+                &kp LEFT &kp DOWN &kp UP &kp RIGHT &kp TAB &kp ESC
+                &none &none &none
                 &kp ENTER &none &none
             >;
         };
